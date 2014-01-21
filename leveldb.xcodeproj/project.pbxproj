@@ -1,0 +1,180 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		0A2219CE188B492F00E68813 /* .git */ = {isa = PBXFileReference; lastKnownFileType = text; path = .git; sourceTree = "<group>"; };
+		0A2219CF188B492F00E68813 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0A2219D0188B492F00E68813 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		0A2219D1188B492F00E68813 /* build_detect_platform */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_detect_platform; sourceTree = "<group>"; };
+		0A2219D2188B492F00E68813 /* db */ = {isa = PBXFileReference; lastKnownFileType = folder; path = db; sourceTree = "<group>"; };
+		0A2219D3188B492F00E68813 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+		0A2219D4188B492F00E68813 /* helpers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = helpers; sourceTree = "<group>"; };
+		0A2219D5188B492F00E68813 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		0A2219D6188B492F00E68813 /* issues */ = {isa = PBXFileReference; lastKnownFileType = folder; path = issues; sourceTree = "<group>"; };
+		0A2219D7188B492F00E68813 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0A2219D8188B492F00E68813 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		0A2219D9188B492F00E68813 /* NEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		0A2219DA188B492F00E68813 /* port */ = {isa = PBXFileReference; lastKnownFileType = folder; path = port; sourceTree = "<group>"; };
+		0A2219DB188B492F00E68813 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		0A2219DC188B492F00E68813 /* table */ = {isa = PBXFileReference; lastKnownFileType = folder; path = table; sourceTree = "<group>"; };
+		0A2219DD188B492F00E68813 /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		0A2219DE188B492F00E68813 /* util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = util; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A2219C8188B492F00E68813 = {
+			isa = PBXGroup;
+			children = (
+				0A2219CE188B492F00E68813 /* .git */,
+				0A2219CF188B492F00E68813 /* .gitignore */,
+				0A2219D0188B492F00E68813 /* AUTHORS */,
+				0A2219D1188B492F00E68813 /* build_detect_platform */,
+				0A2219D2188B492F00E68813 /* db */,
+				0A2219D3188B492F00E68813 /* doc */,
+				0A2219D4188B492F00E68813 /* helpers */,
+				0A2219D5188B492F00E68813 /* include */,
+				0A2219D6188B492F00E68813 /* issues */,
+				0A2219D7188B492F00E68813 /* LICENSE */,
+				0A2219D8188B492F00E68813 /* Makefile */,
+				0A2219D9188B492F00E68813 /* NEWS */,
+				0A2219DA188B492F00E68813 /* port */,
+				0A2219DB188B492F00E68813 /* README */,
+				0A2219DC188B492F00E68813 /* table */,
+				0A2219DD188B492F00E68813 /* TODO */,
+				0A2219DE188B492F00E68813 /* util */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		0A2219CD188B492F00E68813 /* leveldb */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) PLATFORM=IOS";
+			buildConfigurationList = 0A2219DF188B492F00E68813 /* Build configuration list for PBXLegacyTarget "leveldb" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/kevin/workspace_xcode/Wizzer/leveldb;
+			dependencies = (
+			);
+			name = leveldb;
+			passBuildSettingsInEnvironment = 0;
+			productName = leveldb;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		0A2219C9188B492F00E68813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 0A2219CC188B492F00E68813 /* Build configuration list for PBXProject "leveldb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A2219C8188B492F00E68813;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A2219CD188B492F00E68813 /* leveldb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		0A2219CA188B492F00E68813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A2219CB188B492F00E68813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0A2219E0188B492F00E68813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = clang;
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				CXX = "clang++";
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = leveldb;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A2219E1188B492F00E68813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CC = clang;
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = YES;
+				CXX = "clang++";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = leveldb;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A2219CC188B492F00E68813 /* Build configuration list for PBXProject "leveldb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2219CA188B492F00E68813 /* Debug */,
+				0A2219CB188B492F00E68813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0A2219DF188B492F00E68813 /* Build configuration list for PBXLegacyTarget "leveldb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2219E0188B492F00E68813 /* Debug */,
+				0A2219E1188B492F00E68813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A2219C9188B492F00E68813 /* Project object */;
+}
