@@ -8,4 +8,4 @@ build_config.mk
 db_bench
 leveldbutil
 .DS_Store
-
+xcuserdata
