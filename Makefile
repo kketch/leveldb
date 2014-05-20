@@ -194,7 +194,7 @@ IOSVERSION=$(shell defaults read $(PLATFORMSROOT)/iPhoneOS.platform/version CFBu
 .cc.o:
 	mkdir -p ios-x86/$(dir $@)
 	$(CXX) $(CXXFLAGS) -isysroot $(SIMULATORROOT)/SDKs/iPhoneSimulator$(IOSVERSION).sdk -arch i686 -arch x86_64 -c $< -o ios-x86/$@
-	mkdir -p ios-arm/$(dir $@)\
+	mkdir -p ios-arm/$(dir $@)
 	xcrun -sdk iphoneos $(CXX) $(CXXFLAGS) -isysroot $(DEVICEROOT)/SDKs/iPhoneOS$(IOSVERSION).sdk -arch armv6 -arch armv7 -arch armv7s -arch arm64 -c $< -o ios-arm/$@
 	xcrun -sdk iphoneos lipo ios-x86/$@ ios-arm/$@ -create -output $@
 
