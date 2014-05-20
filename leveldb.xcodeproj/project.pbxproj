@@ -55,7 +55,7 @@
 /* Begin PBXLegacyTarget section */
 		0A2219CD188B492F00E68813 /* leveldb */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION) PLATFORM=IOS";
+			buildArgumentsString = "$(ACTION) TARGET_OS=IOS PLATFORM=IOS";
 			buildConfigurationList = 0A2219DF188B492F00E68813 /* Build configuration list for PBXLegacyTarget "leveldb" */;
 			buildPhases = (
 			);
